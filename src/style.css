@@ -100,10 +100,6 @@ input:placeholder-shown {
   padding: 20px 0;
 }
 
-.clear-btn:hover {
-  background-color: rgb(201, 201, 201);
-}
-
 .green-bg {
   background-color: rgb(236, 231, 149);
 }
@@ -117,9 +113,4 @@ input:placeholder-shown {
 
 .width {
   width: 100%;
-}
-
-.text-dec {
-  text-decoration: line-through;
-  color: rgb(179, 179, 179);
 }
