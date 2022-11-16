@@ -1,32 +1,51 @@
 import Data from './data.js';
 
-export default class Remove {
-  static #displayRemove = (data) => {
-    data.remove();
+export default class toDoDom {
+  static #datacheck = (done) => {
+    if (done) {
+      return 'done';
+    }
+    return '';
+  }
+
+  static #addData = (data, container) => {
+    const listHtml = `
+    <li class="main-body-li" data-id="${data.id}">
+      <div class="width">
+        <span><input type="checkbox" name="list-check" id="list-check" ${toDoDom.#datacheck(data.done)}></span>
+        <span class="main-body-text"><input type="text" value="${data.text}" class="data-text ${toDoDom.#datacheck(data.done)}" contenteditable="true"</span>
+      </div>
+      <i class="fa-solid fa-square-minus remove-btn"></i>
+    </li>
+    `;
+
+    container.innerHTML += listHtml;
   };
 
-  static #DataRemove = (data) => {
-    let datas = Data.dataGet();
-    const id = data.getAttribute('data-id');
-    datas = datas.filter((task) => task.id !== parseInt(id, 10));
-
-    Data.dataAdd(datas);
-  };
-
-  static #refreshId = () => {
+  static #dataDownload = (data) => {
     const datas = Data.dataGet();
-    let counter = 1;
-    datas.forEach((data) => {
-      data.index = counter;
-      counter += 1;
-    });
-
+    datas.push(data);
     Data.dataAdd(datas);
-  };
+  }
 
-  static data = (data) => {
-    Remove.#DataRemove(data);
-    Remove.#displayRemove(data);
-    Remove.#refreshId();
-  };
+  static data = (texts, container) => {
+    const task = {
+      text: texts,
+      done: false,
+      index: Data.dataGet().length + 1,
+      id: Date.now(),
+    };
+
+    if (texts !== '') {
+      toDoDom.#addData(task, container);
+      toDoDom.#dataDownload(task);
+    }
+  }
+
+  static datas = (container) => {
+    const datas = Data.dataGet();
+    datas.forEach((data) => {
+      toDoDom.#addData(data, container);
+    });
+  }
 }
