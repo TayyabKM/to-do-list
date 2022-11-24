@@ -67,12 +67,12 @@
 
 
 
-- **[key_feature_1]**
-  - Add a task
-- **[key_feature_2]**
-  - Remove a task
-- **[key_feature_3]**
-  - Mark a task as completed
+- **[Add a task]**
+ 
+- **[Remove a task]**
+
+- **[Mark a task as completed]**
+  
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -148,9 +148,9 @@ You can deploy this project using:
 
 
 
-- [ ] **[new_feature_1]**
+- [ ] **[Will add further testing functions.]**
 
-- Will add further testing functions. 
+
 - 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,10 +162,9 @@ Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
 
-]
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-=======
+
 ## Live Link:
 
 - https://tayyabkm.github.io/to-do-list/dist/
