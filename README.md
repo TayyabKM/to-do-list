@@ -16,11 +16,20 @@ This "To-do" list allows you to mark prioity tasks listed by the user as complet
 
 - Github
 
-👤 👤 **TayyabKM**
+ 👤 **TayyabKM**
 
 - Github: [@TayyabKM](https://github.com/TayyabKM)
 - Twitter: [@TayyabI83126361](https://twitter.com/TayyabI83126361)
 - Linkedin: [@tayyab-irfan-01b72b1aa](https://www.linkedin.com/in/tayyab-irfan-01b72b1aa/)
+
+
+
+👤 **Wali Muhammad**
+
+- GitHub: [@](https://github.com/Itswali)
+- Twitter: [@](https://twitter.com/WaliMuh94818599)
+- LinkedIn: [@](https://www.linkedin.com/in/wali-muhammad-666040244/)
+
 
 
 ## 🤝 Contributing
