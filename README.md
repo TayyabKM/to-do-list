@@ -28,7 +28,7 @@
 
 
 
-**[to-do-list]** is a program that allows the user to add and remove differen tasks and mark them completed
+**[to-do-list]** is a program that allows the user to add and remove different tasks , mark them completed and edit and update them.
 
 ## 🛠 Built With <a name="built-with"></a>
 
