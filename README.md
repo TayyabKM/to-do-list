@@ -2,7 +2,7 @@
 
 # TO Do List
 
-This "To-do" list allows you to mark prioity tasks listed by the user as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!
+This "To-do" list allows you to mark prioity tasks listed by the user as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack.!
 
 
 ## Built With
